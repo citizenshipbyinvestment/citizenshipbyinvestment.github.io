@@ -1,3 +1,5 @@
+(function($) {
+
 const languageSelector = document.getElementById("language-selector");
 const title = document.getElementById("title");
 
@@ -11,3 +13,5 @@ languageSelector.addEventListener("change", function(event) {
   const selectedLanguage = event.target.value;
   title.innerHTML = messages[selectedLanguage];
 });
+
+})(jQuery);
