@@ -97,7 +97,8 @@ languageSelector.value = selectedLanguage;
 // Add listener to language selector, change text based on selected language
 languageSelector.addEventListener("change", function(event) {
   
-  const selectedLanguage = event.target.value;
+  selectedLanguage = event.target.value;
+  window.location = `?lang=${event.target.value}`;
   
   bannerTitle.innerHTML = bannerTitleContent[selectedLanguage];
   bannerBody.innerHTML = bannerBodyContent[selectedLanguage];
@@ -110,8 +111,6 @@ languageSelector.addEventListener("change", function(event) {
   jurisdictionTitle.innerHTML = jurisdictionTitleContent[selectedLanguage];
   jurisdictionBody.innerHTML = jurisdictionBodyContent[selectedLanguage];
   jurisdictionButton.innerHTML = jurisdictionButtonContent[selectedLanguage];
-  
-  window.location = `?lang=${event.target.value}`;
 });
  
 })(jQuery);
