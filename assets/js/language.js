@@ -1,3 +1,6 @@
+// Define language selector
+const languageSelector = document.getElementById("language-selector");
+
 // Add translations here, lookup by "id"
 const translations = {
         
@@ -59,22 +62,19 @@ const translations = {
 
 // Define variables
 const urlParams = new URLSearchParams(window.location.search);
-const language = urlParams.get("lang") || "en";
-const languageSelector = document.getElementById("language-selector");
-languageSelector.value = language;
+const selectedLanguage = urlParams.get("lang") || "en";
+languageSelector.value = selectedLanguage;
 
 // Add listener to selector to update language
-languageSelector.addEventListener("change", function(event) {
-        
-  const selectedLanguage = event.target.value;
-  window.location = `?lang=${selectedLanguage}`;
-  document.getElementById("banner-title").innerHTML = translations[selectedLanguage].bannerTitle;
-  document.getElementById("banner-body").innerHTML = translations[selectedLanguage].bannerBody;
-  document.getElementById("banner-button").innerHTML = translations[selectedLanguage].bannerButton;
-  document.getElementById("citizenship-title").innerHTML = translations[selectedLanguage].citizenshipTitle;
-  document.getElementById("citizenship-body").innerHTML = translations[selectedLanguage].citizenshipBody;
-  document.getElementById("citizenship-button").innerHTML = translations[selectedLanguage].learnButton;
-  document.getElementById("jurisdiction-title").innerHTML = translations[selectedLanguage].jurisdictionTitle;
-  document.getElementById("jurisdiction-body").innerHTML = translations[selectedLanguage].jurisdictionBody;
-  document.getElementById("jurisdiction-button").innerHTML = translations[selectedLanguage].learnButton;
+languageSelector.addEventListener("change", function(event) {        
+  window.location = `?lang=${event.target.value}`;
+  document.getElementById("banner-title").innerHTML = translations[event.target.value].bannerTitle;
+  document.getElementById("banner-body").innerHTML = translations[event.target.value].bannerBody;
+  document.getElementById("banner-button").innerHTML = translations[event.target.value].bannerButton;
+  document.getElementById("citizenship-title").innerHTML = translations[event.target.value].citizenshipTitle;
+  document.getElementById("citizenship-body").innerHTML = translations[event.target.value].citizenshipBody;
+  document.getElementById("citizenship-button").innerHTML = translations[event.target.value].learnButton;
+  document.getElementById("jurisdiction-title").innerHTML = translations[event.target.value].jurisdictionTitle;
+  document.getElementById("jurisdiction-body").innerHTML = translations[event.target.value].jurisdictionBody;
+  document.getElementById("jurisdiction-button").innerHTML = translations[event.target.value].learnButton;
 });
