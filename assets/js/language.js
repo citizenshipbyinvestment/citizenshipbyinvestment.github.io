@@ -4,10 +4,6 @@
 const urlParams = new URLSearchParams(window.location.search);
 const selectedLanguage = urlParams.get("lang") || "en";
 
-// Setup language selector
-const languageSelector = document.getElementById("language-selector");
-languageSelector.value = selectedLanguage;
-
 // Add translations here, lookup by "id"
   
       // BANNER
@@ -19,6 +15,7 @@ languageSelector.value = selectedLanguage;
         jp: "市民権",
         cn: "公民身份"
       };
+      bannerTitle.innerHTML = bannerTitleContent[selectedLanguage];
 
       const bannerBody = document.getElementById("banner-body");
       const bannerBodyContent = {
@@ -28,6 +25,7 @@ languageSelector.value = selectedLanguage;
         jp: "投資プログラム別",
         cn: "按投资方案"
       };
+      bannerBody.innerHTML = bannerBodyContent[selectedLanguage];
 
       const bannerButton = document.getElementById("banner-button");
       const bannerButtonContent = {
@@ -37,6 +35,7 @@ languageSelector.value = selectedLanguage;
         jp: "はじめに",
         cn: "开始吧"
       };
+      bannerButton.innerHTML = bannerButtonContent[selectedLanguage];
   
       // CITIZENSHIP
       const citizenshipTitle = document.getElementById("citizenship-title");
@@ -47,6 +46,7 @@ languageSelector.value = selectedLanguage;
         jp: "セントクリストファー・ネイビスの市民権について",
         cn: "圣基茨和尼维斯公民身份"
       };
+      citizenshipTitle.innerHTML = citizenshipTitleContent[selectedLanguage];
 
       const citizenshipBody = document.getElementById("citizenship-body");
       const citizenshipBodyContent = {
@@ -56,6 +56,7 @@ languageSelector.value = selectedLanguage;
         jp: "セントクリストファー・ネイビスの投資による市民権プログラムは、1984年に設立され、この種のプログラムとしては世界で最も古いものです。40年近い運営期間中、その投資オプションとデューデリジェンス手続きにより、際立った存在となっています。今日に至るまで、セントクリストファー・ネイビスは、投資による市民権授与において世界で最も評判の高い司法機関となっています。",
         cn: "圣基茨和尼维斯投资入籍计划成立于1984年<b>，是世界上最古老的此类计划。在近40年的运作中，它以其投资选择和尽职调查程序而闻名。时至今日，圣基茨和尼维斯仍然是世界上最有信誉的投资入籍管辖区。"
       };
+      citizenshipBody.innerHTML = citizenshipBodyContent[selectedLanguage];
 
       const citizenshipButton = document.getElementById("citizenship-button");
       const citizenshipButtonContent = {
@@ -65,6 +66,7 @@ languageSelector.value = selectedLanguage;
         jp: "もっと詳しく",
         cn: "了解更多"
       };
+      citizenshipButton.innerHTML = citizenshipButtonContent[selectedLanguage];
   
       // JURISDICTION
       const jurisdictionTitle = document.getElementById("jurisdiction-title");
@@ -75,6 +77,7 @@ languageSelector.value = selectedLanguage;
         jp: "管轄区域",
         cn: "管辖权"
       };
+      jurisdictionTitle.innerHTML = jurisdictionTitleContent[selectedLanguage];
 
       const jurisdictionBody = document.getElementById("jurisdiction-body");
       const jurisdictionBodyContent = {
@@ -84,6 +87,7 @@ languageSelector.value = selectedLanguage;
         jp: "セントクリストファー・ネイビス」としても知られるセントクリストファー・ネイビスは、小アンティル諸島と呼ばれる島々の一部を構成し、フロリダ州の南東約2,000kmに位置しています。セントクリストファー・ネイビスは、カリブ海で最初のイギリスとフランスの植民地があったため、「西インド諸島のマザーコロニー」とも呼ばれています。美しいビーチ、サンゴ礁、素晴らしい冷涼な気候があり、一年を通して楽しむことができる国です。また、ヨーロッパ、カナダ、アメリカの複数の都市、そしてほとんどのカリブ海の航空会社から簡単な直行便が就航しています。",
         cn: "圣基茨和尼维斯，也被称为 \"圣克里斯托弗和尼维斯\"，是被称为小安的列斯群岛的一部分，位于佛罗里达州东南方向约2000公里处。圣基茨和尼维斯是英国和法国在加勒比地区的第一批殖民地，因此也被称为 \"西印度群岛的母亲殖民地\"。这个国家有美丽的海滩、珊瑚礁、美妙的凉爽气候，一年四季都很愉快。该国的交通也很便利，有来自欧洲、加拿大、美国多个城市和大多数加勒比海客机的便捷直达航班。"
       };
+      jurisdictionBody.innerHTML = jurisdictionBodyContent[selectedLanguage];
 
       const jurisdictionButton = document.getElementById("jurisdiction-button");
       const jurisdictionButtonContent = {
@@ -93,6 +97,11 @@ languageSelector.value = selectedLanguage;
         jp: "もっと詳しく",
         cn: "了解更多"
       };
+      jurisdictionButton.innerHTML = jurisdictionButtonContent[selectedLanguage];
+
+// Setup language selector
+const languageSelector = document.getElementById("language-selector");
+languageSelector.value = selectedLanguage;
   
 // Add listener to language selector, change text based on selected language
 languageSelector.addEventListener("change", function(event) {
