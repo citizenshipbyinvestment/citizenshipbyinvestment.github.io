@@ -12,10 +12,10 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="is-preload">
+	<body class="is-preload" onload="setInitialLanguage()">
 		
 		<div id="language-switcher">
-  			<select id="language-selector">
+  			<select id="language-selector" onchange="switchLanguage(this.value)">
     			<option value="en">English</option>
     			<option value="fr">Français</option>
     			<option value="sp">Español</option>
