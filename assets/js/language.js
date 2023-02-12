@@ -1,4 +1,4 @@
-(function($) {
+(function($) { 
   
 // check URL for language, default: English
 const urlParams = new URLSearchParams(window.location.search);
@@ -59,12 +59,21 @@ const translations = {
     citizenshipBody: "圣基茨和尼维斯投资入籍计划成立于1984年<b>，是世界上最古老的此类计划。在近40年的运作中，它以其投资选择和尽职调查程序而闻名。时至今日，圣基茨和尼维斯仍然是世界上最有信誉的投资入籍管辖区。",
     learnButton: "了解更多",
     jurisdictionTitle: "管辖权",
-    jurisdictionBody: "圣基茨和尼维斯，也被称为 \"圣克里斯托弗和尼维斯\"，是被称为小安的列斯群岛的一部分，位于佛罗里达州东南方向约2000公里处。圣基茨和尼维斯是英国和法国在加勒比地区的第一批殖民地，因此也被称为 \"西印度群岛的母亲殖民地\"。这个国家有美丽的海滩、珊瑚礁、美妙的凉爽气候，一年四季都很愉快。该国的交通也很便利，有来自欧洲、加拿大、美国多个城市和大多数加勒比海客机的便捷直达航班。"
+    jurisdictionBody: "圣基茨和尼维斯，也被称为 \"圣克里斯托弗和尼维斯\"，是被称为小安的列斯群岛的一部分，位于佛罗里达州东南方向约2000公里处。圣基茨和尼维斯是英国和法国在加勒比地区的第一批殖民地，因此也被称为 \"西印度群岛的母亲殖民地\"。这个国家有美丽的海滩、珊瑚礁、美妙的凉爽气候，一年四季都很愉快。该国的交通也很便利，有来自欧洲、加拿大、美国多个城市和大多数加勒比海客机的便捷直达航班。",
   },
 };
+
+// check URL for language, default: English
+function setInitialLanguage() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const language = urlParams.get("lang") || "en";
+        document.getElementById("language-selector").value = language;
+        switchLanguage(language);
+}
   
 function switchLanguage(language) {
   
+      window.location = `?lang=${language.value}`;
       document.getElementById("banner-title").innerHTML = translations[language].bannerTitle;
       document.getElementById("banner-body").innerHTML = translations[language].bannerBody;
       document.getElementById("banner-button").innerHTML = translations[language].bannerButton;
@@ -75,18 +84,5 @@ function switchLanguage(language) {
       document.getElementById("jurisdiction-body").innerHTML = translations[language].jurisdictionBody;
       document.getElementById("jurisdiction-button").innerHTML = translations[language].learnButton;
 }
-
-// Setup language selector
-const languageSelector = document.getElementById("language-selector");
-languageSelector.value = selectedLanguage;
-  
-// Add listener to language selector, change text based on selected language
-languageSelector.addEventListener("change", function(event) {
-  
-  selectedLanguage = event.target.value;
-  window.location = `?lang=${event.target.value}`;
-  
-  switchLanguage(selectedLanguage)
-});
  
 })(jQuery);
