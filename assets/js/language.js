@@ -1,5 +1,3 @@
-(function($) { 
-  
 // check URL for language, default: English
 const urlParams = new URLSearchParams(window.location.search);
 const selectedLanguage = urlParams.get("lang") || "en";
@@ -62,19 +60,17 @@ const translations = {
     jurisdictionBody: "圣基茨和尼维斯，也被称为 \"圣克里斯托弗和尼维斯\"，是被称为小安的列斯群岛的一部分，位于佛罗里达州东南方向约2000公里处。圣基茨和尼维斯是英国和法国在加勒比地区的第一批殖民地，因此也被称为 \"西印度群岛的母亲殖民地\"。这个国家有美丽的海滩、珊瑚礁、美妙的凉爽气候，一年四季都很愉快。该国的交通也很便利，有来自欧洲、加拿大、美国多个城市和大多数加勒比海客机的便捷直达航班。",
   },
 };
- 
-})
 
 // check URL for language, default: English
-(function setInitialLanguage() {
+function setInitialLanguage() {
         const urlParams = new URLSearchParams(window.location.search);
         const language = urlParams.get("lang") || "en";
         document.getElementById("language-selector").value = language;
         switchLanguage(language);
-})
+}
 
 // Switch languages
-(function switchLanguage(language) {
+function switchLanguage(language) {
   
       window.location = `?lang=${language.value}`;
       document.getElementById("banner-title").innerHTML = translations[language].bannerTitle;
@@ -86,5 +82,4 @@ const translations = {
       document.getElementById("jurisdiction-title").innerHTML = translations[language].jurisdictionTitle;
       document.getElementById("jurisdiction-body").innerHTML = translations[language].jurisdictionBody;
       document.getElementById("jurisdiction-button").innerHTML = translations[language].learnButton;
-  
-})(jQuery);
+}
