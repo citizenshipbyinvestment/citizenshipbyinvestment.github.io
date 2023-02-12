@@ -57,11 +57,14 @@ const translations = {
   },
 };
 
+// Define variables
 const urlParams = new URLSearchParams(window.location.search);
 const language = urlParams.get("lang") || "en";
-document.getElementById("language-selector").value = language;
+const languageSelector = document.getElementById("language-selector");
+languageSelector.value = language;
 
-document.getElementById("language-selector").addEventListener("change", function(event) {
+// Add listener to selector to update language
+languageSelector.addEventListener("change", function(event) {
         
   const selectedLanguage = event.target.value;
   window.location = `?lang=${selectedLanguage};
