@@ -63,20 +63,15 @@ document.getElementById("language-selector").value = language;
 //window.location = `?lang=${language.value}`;
 
 document.getElementById("language-selector").addEventListener("change", function(event) {
+        
   const selectedLanguage = event.target.value;
-  switchLanguage(selectedLanguage);
+  document.getElementById("banner-title").innerHTML = translations[selectedLanguage].bannerTitle;
+  document.getElementById("banner-body").innerHTML = translations[selectedLanguage].bannerBody;
+  document.getElementById("banner-button").innerHTML = translations[selectedLanguage].bannerButton;
+  document.getElementById("citizenship-title").innerHTML = translations[selectedLanguage].citizenshipTitle;
+  document.getElementById("citizenship-body").innerHTML = translations[selectedLanguage].citizenshipBody;
+  document.getElementById("citizenship-button").innerHTML = translations[selectedLanguage].learnButton;
+  document.getElementById("jurisdiction-title").innerHTML = translations[selectedLanguage].jurisdictionTitle;
+  document.getElementById("jurisdiction-body").innerHTML = translations[selectedLanguage].jurisdictionBody;
+  document.getElementById("jurisdiction-button").innerHTML = translations[selectedLanguage].learnButton;
 });
-
-// Switch languages
-function switchLanguage(language) {
-  
-      document.getElementById("banner-title").innerHTML = translations[language].bannerTitle;
-      document.getElementById("banner-body").innerHTML = translations[language].bannerBody;
-      document.getElementById("banner-button").innerHTML = translations[language].bannerButton;
-      document.getElementById("citizenship-title").innerHTML = translations[language].citizenshipTitle;
-      document.getElementById("citizenship-body").innerHTML = translations[language].citizenshipBody;
-      document.getElementById("citizenship-button").innerHTML = translations[language].learnButton;
-      document.getElementById("jurisdiction-title").innerHTML = translations[language].jurisdictionTitle;
-      document.getElementById("jurisdiction-body").innerHTML = translations[language].jurisdictionBody;
-      document.getElementById("jurisdiction-button").innerHTML = translations[language].learnButton;
-}
