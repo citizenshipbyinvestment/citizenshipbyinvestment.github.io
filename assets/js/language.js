@@ -22,8 +22,8 @@ const translations = {
   
   fr: {
     banner: {
-      title: "CITOYENNETÉ",
-      body: "PAR PROGRAMME D'INVESTISSEMENT",
+      title: "PROGRAMME DE CITOYENNETÉ",
+      body: "PAR INVESTISSEMENT",
       button: "Commencez",
     },
     citizenship: {
@@ -39,8 +39,8 @@ const translations = {
         
   sp: {
     banner: {
-      title: "CIUDADANÍA",
-      body: "POR PROGRAMA DE INVERSIÓN",
+      title: "PROGRAMA DE CIUDADANÍA",
+      body: "POR INVERSIÓN",
       button: "Comenzar",
     },
     citizenship: {
@@ -57,7 +57,7 @@ const translations = {
   jp: {
     banner: {
       title: "市民権",
-      body: "投資プログラム別",
+      body: "投資プログラム",
       button: "はじめに",
     },
     citizenship: {
