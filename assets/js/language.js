@@ -63,12 +63,12 @@ function setInitialLanguage() {
         const language = urlParams.get("lang") || "en";
         document.getElementById("language-selector").value = language;
         switchLanguage(language);
+        window.location = `?lang=${language.value}`;
 }
 
 // Switch languages
 function switchLanguage(language) {
   
-      window.location = `?lang=${language.value}`;
       document.getElementById("banner-title").innerHTML = translations[language].bannerTitle;
       document.getElementById("banner-body").innerHTML = translations[language].bannerBody;
       document.getElementById("banner-button").innerHTML = translations[language].bannerButton;
