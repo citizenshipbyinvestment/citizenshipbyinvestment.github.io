@@ -60,11 +60,11 @@ const translations = {
 const urlParams = new URLSearchParams(window.location.search);
 const language = urlParams.get("lang") || "en";
 document.getElementById("language-selector").value = language;
-//window.location = `?lang=${language.value}`;
 
 document.getElementById("language-selector").addEventListener("change", function(event) {
         
   const selectedLanguage = event.target.value;
+  window.location = `?lang=${selectedLanguage};
   document.getElementById("banner-title").innerHTML = translations[selectedLanguage].bannerTitle;
   document.getElementById("banner-body").innerHTML = translations[selectedLanguage].bannerBody;
   document.getElementById("banner-button").innerHTML = translations[selectedLanguage].bannerButton;
