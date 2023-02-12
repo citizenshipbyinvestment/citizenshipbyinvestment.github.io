@@ -10,33 +10,33 @@ languageSelector.value = selectedLanguage;
 
 // Add translations here, lookup by "id"
   
-			// BANNER
-			const bannerTitle = document.getElementById("banner-title");
-			const bannerTitleContent = {
-				en: "CITIZENSHIP",
-				fr: "CITOYENNETÉ",
-				sp: "CIUDADANÍA",
-				jp: "市民権",
-				cn: "公民身份"
-			};
+      // BANNER
+      const bannerTitle = document.getElementById("banner-title");
+      const bannerTitleContent = {
+        en: "CITIZENSHIP",
+        fr: "CITOYENNETÉ",
+        sp: "CIUDADANÍA",
+        jp: "市民権",
+        cn: "公民身份"
+      };
 
-			const bannerBody = document.getElementById("banner-body");
-			const bannerBodyContent = {
-				en: "BY INVESTMENT PROGRAMME",
-				fr: "PAR PROGRAMME D'INVESTISSEMENT",
-				sp: "POR PROGRAMA DE INVERSIÓN",
-				jp: "投資プログラム別",
-				cn: "按投资方案"
-			};
+      const bannerBody = document.getElementById("banner-body");
+      const bannerBodyContent = {
+        en: "BY INVESTMENT PROGRAMME",
+        fr: "PAR PROGRAMME D'INVESTISSEMENT",
+        sp: "POR PROGRAMA DE INVERSIÓN",
+        jp: "投資プログラム別",
+        cn: "按投资方案"
+      };
 
-			const bannerButton = document.getElementById("banner-button");
-			const bannerButtonContent = {
-				en: "Get Started",
-				fr: "Commencez",
-				sp: "Comenzar",
-				jp: "はじめに",
-				cn: "开始吧"
-			};
+      const bannerButton = document.getElementById("banner-button");
+      const bannerButtonContent = {
+        en: "Get Started",
+        fr: "Commencez",
+        sp: "Comenzar",
+        jp: "はじめに",
+        cn: "开始吧"
+      };
   
       // CITIZENSHIP
       const citizenshipTitle = document.getElementById("citizenship-title");
