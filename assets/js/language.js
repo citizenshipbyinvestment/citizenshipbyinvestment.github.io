@@ -60,10 +60,10 @@ const translations = {
 // check URL for language, default: English
 function setInitialLanguage() {
         const urlParams = new URLSearchParams(window.location.search);
-        const language = urlParams.get("lang") || "en";
+        language = urlParams.get("lang") || "en";
         document.getElementById("language-selector").value = language;
-        switchLanguage(language);
-        window.location = `?lang=${language.value}`;
+        //window.location = `?lang=${language.value}`;
+        switchLanguage(language);    
 }
 
 // Switch languages
