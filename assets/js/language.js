@@ -60,23 +60,22 @@ const translations = {
   },
 };
 
-// Define variables
 const urlParams = new URLSearchParams(window.location.search);
 const selectedLanguage = urlParams.get("lang") || "en";
+
 languageSelector.value = selectedLanguage;
+
+document.getElementById("banner-title").innerHTML = translations[selectedLanguage].bannerTitle;
+document.getElementById("banner-body").innerHTML = translations[selectedLanguage].bannerBody;
+document.getElementById("banner-button").innerHTML = translations[selectedLanguage].bannerButton;
+document.getElementById("citizenship-title").innerHTML = translations[selectedLanguage].citizenshipTitle;
+document.getElementById("citizenship-body").innerHTML = translations[selectedLanguage].citizenshipBody;
+document.getElementById("citizenship-button").innerHTML = translations[selectedLanguage].learnButton;
+document.getElementById("jurisdiction-title").innerHTML = translations[selectedLanguage].jurisdictionTitle;
+document.getElementById("jurisdiction-body").innerHTML = translations[selectedLanguage].jurisdictionBody;
+document.getElementById("jurisdiction-button").innerHTML = translations[selectedLanguage].learnButton;
 
 // Add listener to selector to update language
 languageSelector.addEventListener("change", function(event) {
-  selectedLanguage = event.target.value;
-  languageSelector.value = selectedLanguage;
-  document.getElementById("banner-title").innerHTML = translations[selectedLanguage].bannerTitle;
-  document.getElementById("banner-body").innerHTML = translations[selectedLanguage].bannerBody;
-  document.getElementById("banner-button").innerHTML = translations[selectedLanguage].bannerButton;
-  document.getElementById("citizenship-title").innerHTML = translations[selectedLanguage].citizenshipTitle;
-  document.getElementById("citizenship-body").innerHTML = translations[selectedLanguage].citizenshipBody;
-  document.getElementById("citizenship-button").innerHTML = translations[selectedLanguage].learnButton;
-  document.getElementById("jurisdiction-title").innerHTML = translations[selectedLanguage].jurisdictionTitle;
-  document.getElementById("jurisdiction-body").innerHTML = translations[selectedLanguage].jurisdictionBody;
-  document.getElementById("jurisdiction-button").innerHTML = translations[selectedLanguage].learnButton;
-  window.location = `?lang=${selectedLanguage}`;
+  window.location = `?lang=${event.target.value}`;
 });
