@@ -69,7 +69,6 @@ languageSelector.value = selectedLanguage;
 languageSelector.addEventListener("change", function(event) {
   selectedLanguage = event.target.value;
   languageSelector.value = selectedLanguage;
-  window.location = `?lang=${selectedLanguage}`;
   document.getElementById("banner-title").innerHTML = translations[selectedLanguage].bannerTitle;
   document.getElementById("banner-body").innerHTML = translations[selectedLanguage].bannerBody;
   document.getElementById("banner-button").innerHTML = translations[selectedLanguage].bannerButton;
@@ -79,4 +78,5 @@ languageSelector.addEventListener("change", function(event) {
   document.getElementById("jurisdiction-title").innerHTML = translations[selectedLanguage].jurisdictionTitle;
   document.getElementById("jurisdiction-body").innerHTML = translations[selectedLanguage].jurisdictionBody;
   document.getElementById("jurisdiction-button").innerHTML = translations[selectedLanguage].learnButton;
+  window.location = `?lang=${selectedLanguage}`;
 });
