@@ -1,16 +1,16 @@
 (function($) {
   
-<!-- check URL for language, default: English --> 
+// check URL for language, default: English
 const urlParams = new URLSearchParams(window.location.search);
 const selectedLanguage = urlParams.get("lang") || "en";
 
-<!-- Setup language selector -->
+// Setup language selector
 const languageSelector = document.getElementById("language-selector");
 languageSelector.value = selectedLanguage;
 
-<!-- Add translations here, lookup by "id" -->
+// Add translations here, lookup by "id"
   
-			<!-- BANNER -->
+			// BANNER
 			const bannerTitle = document.getElementById("banner-title");
 			const bannerTitleContent = {
 				en: "CITIZENSHIP",
@@ -38,7 +38,7 @@ languageSelector.value = selectedLanguage;
 				cn: "开始吧"
 			};
   
-      <!-- CITIZENSHIP -->
+      // CITIZENSHIP
       const citizenshipTitle = document.getElementById("citizenship-title");
       const citizenshipTitleContent = {
         en: "Saint Kitts and Nevis Citizenship",
@@ -66,7 +66,7 @@ languageSelector.value = selectedLanguage;
         cn: "了解更多"
       };
   
-      <!-- JURISDICTION -->
+      // JURISDICTION
       const jurisdictionTitle = document.getElementById("jurisdiction-title");
       const jurisdictionTitleContent = {
         en: "Jurisdiction",
@@ -94,7 +94,7 @@ languageSelector.value = selectedLanguage;
         cn: "了解更多"
       };
   
-<!-- Add listener to language selector, change text based on selected language --> 
+// Add listener to language selector, change text based on selected language
 languageSelector.addEventListener("change", function(event) {
   
   const selectedLanguage = event.target.value;
