@@ -1,7 +1,3 @@
-// check URL for language, default: English
-const urlParams = new URLSearchParams(window.location.search);
-const selectedLanguage = urlParams.get("lang") || "en";
-
 // Add translations here, lookup by "id"
 const translations = {
         
