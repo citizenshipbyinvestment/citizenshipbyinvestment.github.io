@@ -67,7 +67,7 @@ languageSelector.value = language;
 languageSelector.addEventListener("change", function(event) {
         
   const selectedLanguage = event.target.value;
-  window.location = `?lang=${selectedLanguage};
+  window.location = `?lang=${selectedLanguage}`;
   document.getElementById("banner-title").innerHTML = translations[selectedLanguage].bannerTitle;
   document.getElementById("banner-body").innerHTML = translations[selectedLanguage].bannerBody;
   document.getElementById("banner-button").innerHTML = translations[selectedLanguage].bannerButton;
