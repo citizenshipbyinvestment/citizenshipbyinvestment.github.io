@@ -5,7 +5,7 @@ const translations = {
         
   en: {
     banner: {
-      title: "CITIZENSHIP",
+      title: "CITIZENSHOP",
       body: "BY INVESTMENT PROGRAMME",
       button: "Get Started",
     },
