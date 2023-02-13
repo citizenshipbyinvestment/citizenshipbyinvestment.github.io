@@ -13,7 +13,7 @@ form.addEventListener("submit", function(event) {
       {
         to: [
           {
-            email: "ma@cwa.nevis.kn"
+            email: "marcabela@gmail.com"
           }
         ],
         subject: `Message from ${name} (${email})`
