@@ -1,6 +1,4 @@
-(function($) {
-  
-const form = document.getElementById("myForm");
+const form = document.getElementById("form");
 form.addEventListener("submit", function(event) {
   event.preventDefault();
   const formData = new FormData(form);
@@ -42,6 +40,3 @@ form.addEventListener("submit", function(event) {
     }
   };
 });
-
- 
-})(jQuery);
