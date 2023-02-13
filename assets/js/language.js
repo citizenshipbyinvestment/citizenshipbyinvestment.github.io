@@ -47,7 +47,7 @@ const translations = {
       title: "Pratiques commerciales",
       body: {
          one: "Notre cabinet est spécialisé dans le traitement des demandes de citoyenneté directement à Saint-Kitts-et-Nevis, ce qui nous permet d'être au courant de tous les nouveaux développements. Nos clients sont donc toujours bien informés à l'avance de tout changement et peuvent compter sur notre soutien et notre expertise tout au long de la procédure.",
-         two: "Our team also offers full linguistic support throughout the application process and until completion in the following languages: anglais, français, japonais, espagnol et chinois.",
+         two: "Notre équipe offre également un soutien linguistique complet tout au long du processus de candidature et jusqu'à son achèvement dans les langues suivantes : anglais, français, japonais, espagnol et chinois.",
          three: "Si votre nationalité actuelle limite votre capacité à voyager librement, à effectuer des opérations bancaires, à investir ou à vous sentir en sécurité, une deuxième citoyenneté/un deuxième passeport vous ouvrira un monde de nouvelles possibilités pour vous et votre famille. Les candidats qualifiés peuvent bénéficier d'une plus grande liberté et d'une stabilité accrue pour eux-mêmes, leur conjoint et un nombre quelconque de personnes à charge (enfants, frères et sœurs, parents, etc.).",
       },
     },
