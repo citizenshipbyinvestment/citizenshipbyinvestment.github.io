@@ -18,6 +18,14 @@ const translations = {
       title: "Jurisdiction",
       body: "Saint Kitts and Nevis, also known as <b>‘Saint Christopher and Nevis’</b> forms part of the group of islands known as the Lesser Antilles, located some 2,000 km to the southeast of the state of Florida. Saint Kitts and Nevis was home to the first British and French colonies in the Caribbean, and thus has also been titled \"The Mother Colony of the West Indies\". The country has beautiful beaches, reefs, wonderful cool climate, enjoyable throughout the year. The country is also well connected by easy and <b>direct flights</b> from Europe, Canada, multiple cities in the US, and most Caribbean airliners.",
     },
+    business: {
+      title: "Business Practices",
+      body: {
+         one: "Our firm specializes in the processing of citizenship applications directly in Saint Kitts and Nevis, enabling us to be apprised of all new developments, so our clients are always well-informed in advance of any changes, and can rely on our support and expertise throughout the procedure.",
+         two: "Our team also offers <b>full linguistic support</b> throughout the application process and until completion in the following languages: <b>English, French, Japanese, Spanish, and Chinese</b>.",
+         three: "If your current nationality is limiting your ability to freely travel, bank, invest or feel secure, a second citizenship/passport will open up a world of new possibilities for you and your family. Qualified applicants can enjoy greater freedom and increased stability for themselves, their spouse, and any number of dependent (children, siblings, parents, etc).",
+      },
+    },
   },
   
   fr: {
@@ -34,6 +42,14 @@ const translations = {
     jurisdiction: {
       title: "Compétence",
       body: "Saint-Kitts-et-Nevis, également connu sous le nom de \"Saint-Christophe-et-Nevis\", fait partie du groupe d'îles connu sous le nom de Petites Antilles, situé à environ 2 000 km au sud-est de l'État de Floride. Saint-Kitts-et-Nevis a abrité les premières colonies britanniques et françaises dans les Caraïbes, ce qui lui a valu le titre de \"colonie mère des Antilles\". The country has beautiful beaches, reefs, wonderful cool climate, enjoyable throughout the year. Le pays est également bien desservi par des vols faciles et directs depuis l'Europe, le Canada, plusieurs villes des États-Unis et la plupart des compagnies aériennes des Caraïbes.",
+    },
+    business: {
+      title: "Pratiques commerciales",
+      body: {
+         one: "Notre cabinet est spécialisé dans le traitement des demandes de citoyenneté directement à Saint-Kitts-et-Nevis, ce qui nous permet d'être au courant de tous les nouveaux développements. Nos clients sont donc toujours bien informés à l'avance de tout changement et peuvent compter sur notre soutien et notre expertise tout au long de la procédure.",
+         two: "Our team also offers full linguistic support throughout the application process and until completion in the following languages: anglais, français, japonais, espagnol et chinois.",
+         three: "Si votre nationalité actuelle limite votre capacité à voyager librement, à effectuer des opérations bancaires, à investir ou à vous sentir en sécurité, une deuxième citoyenneté/un deuxième passeport vous ouvrira un monde de nouvelles possibilités pour vous et votre famille. Les candidats qualifiés peuvent bénéficier d'une plus grande liberté et d'une stabilité accrue pour eux-mêmes, leur conjoint et un nombre quelconque de personnes à charge (enfants, frères et sœurs, parents, etc.).",
+      },
     },
   },
         
@@ -103,6 +119,11 @@ document.getElementById("citizenship-button").innerHTML = translations[selectedL
 document.getElementById("jurisdiction-title").innerHTML = translations[selectedLanguage].jurisdiction.title;
 document.getElementById("jurisdiction-body").innerHTML = translations[selectedLanguage].jurisdiction.body;
 document.getElementById("jurisdiction-button").innerHTML = translations[selectedLanguage].learnButton;
+document.getElementById("business-title").innerHTML = translations[selectedLanguage].business.title;
+document.getElementById("business-body-one").innerHTML = translations[selectedLanguage].business.body.one;
+document.getElementById("business-body-two").innerHTML = translations[selectedLanguage].business.body.two;
+document.getElementById("business-body-three").innerHTML = translations[selectedLanguage].business.body.three;
+document.getElementById("business-button").innerHTML = translations[selectedLanguage].learnButton;
 
 // Add listener to selector to update language
 languageSelector.addEventListener("change", function(event) {
