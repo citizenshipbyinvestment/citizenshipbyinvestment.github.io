@@ -30,7 +30,7 @@ form.addEventListener("submit", function(event) {
 
   const xhr = new XMLHttpRequest();
   xhr.open("POST", "https://api.sendgrid.com/v3/mail/send");
-  xhr.setRequestHeader("Authorization", process.env.API_KEY);
+  xhr.setRequestHeader("Authorization", window.env.API_KEY);
   xhr.setRequestHeader("Content-Type", "application/json");
   xhr.send(JSON.stringify(data));
 
