@@ -11,7 +11,7 @@ form.addEventListener("submit", function(event) {
       {
         to: [
           {
-            email: "marcabela@gmail.com"
+            email: "david@stonecarterstudios.com"
           }
         ],
         subject: `Message from ${name} (${email})`
