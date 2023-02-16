@@ -4,6 +4,7 @@ const languageSelector = document.getElementById("language-selector");
 const translations = {
         
   en: {
+    title: "CITIZENSHIP BY INVESTMENT PROGRAMME",
     banner: {
       title: "CITIZENSHIP",
       body: "BY INVESTMENT PROGRAMME",
@@ -150,6 +151,7 @@ const translations = {
   },
   
   fr: {
+    title: "PROGRAMME DE CITOYENNETÉ PAR INVESTISSEMENT",
     banner: {
       title: "PROGRAMME DE CITOYENNETÉ",
       body: "PAR INVESTISSEMENT",
@@ -296,6 +298,7 @@ const translations = {
   },
         
   sp: {
+    title: "PROGRAMA DE CIUDADANÍA POR INVERSIÓN",
     banner: {
       title: "PROGRAMA DE CIUDADANÍA",
       body: "POR INVERSIÓN",
@@ -442,6 +445,7 @@ const translations = {
   },
         
   jp: {
+    title: "シチズンシップ・バイ・インベストメント・プログラム",
     banner: {
       title: "市民権",
       body: "投資プログラム",
@@ -588,6 +592,7 @@ const translations = {
   },
         
   cn: {
+    title: "以投资换取公民权方案",
     banner: {
       title: "公民身份",
       body: "按投资方案",
