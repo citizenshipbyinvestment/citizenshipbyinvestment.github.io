@@ -744,6 +744,8 @@ const selectedLanguage = urlParams.get("lang") || "en";
 
 languageSelector.value = selectedLanguage;
 
+document.getElementById("title").innerHTML = translations[selectedLanguage].title;
+
 document.getElementById("banner-title").innerHTML = translations[selectedLanguage].banner.title;
 document.getElementById("banner-body").innerHTML = translations[selectedLanguage].banner.body;
 document.getElementById("banner-button").innerHTML = translations[selectedLanguage].banner.button;
