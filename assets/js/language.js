@@ -68,6 +68,14 @@ const translations = {
       title: "Jurisdicción",
       body: "San Cristóbal y Nieves forma parte del grupo de islas conocido como Antillas Menores, situado a unos 2.000 km al sureste del estado de Florida. San Cristóbal y Nieves fue sede de las primeras colonias británicas y francesas en el Caribe, por lo que también se la ha titulado \"La Colonia Madre de las Indias Occidentales\". El país cuenta con hermosas playas, arrecifes y un maravilloso clima fresco, agradable durante todo el año. Además, el país está bien comunicado por vuelos fáciles y directos desde Europa, Canadá, múltiples ciudades de EE UU y la mayoría de las líneas aéreas del Caribe.",
     },
+    business: {
+      title: "Business Practices",
+      body: {
+         one: "Our firm specializes in the processing of citizenship applications directly in Saint Kitts and Nevis, enabling us to be apprised of all new developments, so our clients are always well-informed in advance of any changes, and can rely on our support and expertise throughout the procedure.",
+         two: "Our team also offers <b>full linguistic support</b> throughout the application process and until completion in the following languages: <b>English, French, Japanese, Spanish, and Chinese</b>.",
+         three: "If your current nationality is limiting your ability to freely travel, bank, invest or feel secure, a second citizenship/passport will open up a world of new possibilities for you and your family. Qualified applicants can enjoy greater freedom and increased stability for themselves, their spouse, and any number of dependent (children, siblings, parents, etc).",
+      },
+    },
   },
         
   jp: {
@@ -85,6 +93,14 @@ const translations = {
       title: "管轄区域",
       body: "セントクリストファー・ネイビス」としても知られるセントクリストファー・ネイビスは、小アンティル諸島と呼ばれる島々の一部を構成し、フロリダ州の南東約2,000kmに位置しています。セントクリストファー・ネイビスは、カリブ海で最初のイギリスとフランスの植民地があったため、「西インド諸島のマザーコロニー」とも呼ばれています。美しいビーチ、サンゴ礁、素晴らしい冷涼な気候があり、一年を通して楽しむことができる国です。また、ヨーロッパ、カナダ、アメリカの複数の都市、そしてほとんどのカリブ海の航空会社から簡単な直行便が就航しています。",
     },
+    business: {
+      title: "Business Practices",
+      body: {
+         one: "Our firm specializes in the processing of citizenship applications directly in Saint Kitts and Nevis, enabling us to be apprised of all new developments, so our clients are always well-informed in advance of any changes, and can rely on our support and expertise throughout the procedure.",
+         two: "Our team also offers <b>full linguistic support</b> throughout the application process and until completion in the following languages: <b>English, French, Japanese, Spanish, and Chinese</b>.",
+         three: "If your current nationality is limiting your ability to freely travel, bank, invest or feel secure, a second citizenship/passport will open up a world of new possibilities for you and your family. Qualified applicants can enjoy greater freedom and increased stability for themselves, their spouse, and any number of dependent (children, siblings, parents, etc).",
+      },
+    },
   },
         
   cn: {
@@ -101,6 +117,14 @@ const translations = {
     jurisdiction: {
       title: "管辖权",
       body: "圣基茨和尼维斯，也被称为 \"圣克里斯托弗和尼维斯\"，是被称为小安的列斯群岛的一部分，位于佛罗里达州东南方向约2000公里处。圣基茨和尼维斯是英国和法国在加勒比地区的第一批殖民地，因此也被称为 \"西印度群岛的母亲殖民地\"。这个国家有美丽的海滩、珊瑚礁、美妙的凉爽气候，一年四季都很愉快。该国的交通也很便利，有来自欧洲、加拿大、美国多个城市和大多数加勒比海客机的便捷直达航班。",
+    },
+    business: {
+      title: "Business Practices",
+      body: {
+         one: "Our firm specializes in the processing of citizenship applications directly in Saint Kitts and Nevis, enabling us to be apprised of all new developments, so our clients are always well-informed in advance of any changes, and can rely on our support and expertise throughout the procedure.",
+         two: "Our team also offers <b>full linguistic support</b> throughout the application process and until completion in the following languages: <b>English, French, Japanese, Spanish, and Chinese</b>.",
+         three: "If your current nationality is limiting your ability to freely travel, bank, invest or feel secure, a second citizenship/passport will open up a world of new possibilities for you and your family. Qualified applicants can enjoy greater freedom and increased stability for themselves, their spouse, and any number of dependent (children, siblings, parents, etc).",
+      },
     },
    },
 };
