@@ -147,6 +147,7 @@ const translations = {
          name: "Name",
          email: "Email",
          message: "Message",
+         submit: "Send Message",
     },
   },
   
@@ -294,6 +295,7 @@ const translations = {
          name: "Nom",
          email: "Courriel",
          message: "Message",
+         submit: "Envoyer un message",
     },
   },
         
@@ -441,6 +443,7 @@ const translations = {
          name: "Nombre",
          email: "Correo electrónico",
          message: "Mensaje",
+         submit: "Enviar mensaje",
     },
   },
         
@@ -588,6 +591,7 @@ const translations = {
          name: "名称",
          email: "電子メール",
          message: "メッセージ",
+         submit: "メッセージの送信",
     },
   },
         
@@ -735,6 +739,7 @@ const translations = {
          name: "命名",
          email: "电子邮件",
          message: "留言",
+         submit: "发送信息",
     },
   },
 };
@@ -829,6 +834,7 @@ document.getElementById("contact-body").innerHTML = translations[selectedLanguag
 document.getElementById("contact-name").innerHTML = translations[selectedLanguage].contact.name;
 document.getElementById("contact-email").innerHTML = translations[selectedLanguage].contact.email;
 document.getElementById("contact-message").innerHTML = translations[selectedLanguage].contact.message;
+document.getElementById("contact-submit").value = translations[selectedLanguage].contact.submit;
 
 // Add listener to selector to update language
 languageSelector.addEventListener("change", function(event) {
