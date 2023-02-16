@@ -140,6 +140,13 @@ const translations = {
          body: "There are a few forms (in PDF easily editable format) to complete, as well as certificates (e.g. birth certificate, marriage certificate if applicable, police certificate, etc) to submit, copies of current passport as well as new passport-size photos, power of attorney, etc. Our <b>team will guide you along the process</b> and provide you with the full list of elements to assemble, to ensure a successfull application.",
       },
     },
+    contact: {
+         title: "Get in touch to learn more",
+         body: "We can easily arrange online video meetings early into the process, to help provide you with any additional details.",
+         name: "Name",
+         email: "Email",
+         message: "Message",
+    },
   },
   
   fr: {
@@ -278,6 +285,13 @@ const translations = {
          title: "16. Quels types de formulaires et de documents doivent être soumis pour traiter la demande?",
          body: "Il y a quelques formulaires (en format PDF facilement modifiable) à remplir, ainsi que des certificats (par exemple, certificat de naissance, certificat de mariage le cas échéant, certificat de police, etc.) à soumettre, des copies du passeport actuel ainsi que de nouvelles photos d'identité, une procuration, etc. Notre équipe vous guidera tout au long du processus et vous fournira la liste complète des éléments à réunir, afin de garantir le succès de votre demande.",
       },
+    },
+    contact: {
+         title: "Prenez contact avec nous pour en savoir plus",
+         body: "Nous pouvons facilement organiser des réunions vidéo en ligne au début du processus, afin de vous fournir tous les détails supplémentaires.",
+         name: "Nom",
+         email: "Courriel",
+         message: "Message",
     },
   },
         
@@ -418,6 +432,13 @@ const translations = {
          body: "Hay unos cuantos formularios (en formato PDF fácilmente editable) que rellenar, así como certificados (por ejemplo, partida de nacimiento, certificado de matrimonio si procede, certificado de la policía, etc.) que presentar, copias del pasaporte actual así como nuevas fotos tamaño carné, poder notarial, etc. Nuestro equipo le guiará a lo largo del proceso y le proporcionará la lista completa de elementos que debe reunir, para garantizar el éxito de su solicitud.",
       },
     },
+    contact: {
+         title: "Más información",
+         body: "Podemos organizar fácilmente videoconferencias en línea al principio del proceso, para ayudarle a obtener cualquier detalle adicional.",
+         name: "Nombre",
+         email: "Correo electrónico",
+         message: "Mensaje",
+    },
   },
         
   jp: {
@@ -557,6 +578,13 @@ const translations = {
          body: "いくつかの書類 証明書（出生証明書、結婚証明書、警察証明書など）、現在のパスポートのコピー、新しいパスポートサイズの写真、委任状などが必要です。私たちのチームは、申請を成功させるために必要な要素のリストを提供し、プロセスを指導します。",
       },
     },
+    contact: {
+         title: "詳細については、お問い合わせください。",
+         body: "私たちは、プロセスの早い段階でオンラインビデオミーティングを簡単に手配し、お客様に詳細な情報を提供することができます。",
+         name: "名称",
+         email: "電子メール",
+         message: "メッセージ",
+    },
   },
         
   cn: {
@@ -695,7 +723,14 @@ const translations = {
          title: "16. 处理申请时需要提交什么样的表格和文件？",
          body: "这里有一些 表格（PDF格式，易于编辑），以及需要提交的证书（如出生证、结婚证（如适用）、警察证等）、现有护照的复印件以及新的护照照片、委托书等。我们的团队将指导你完成这一过程，并为你提供完整的要素清单，以确保申请的成功。",
       },
-    },    
+    },
+    contact: {
+         title: "联系我们以了解更多信息",
+         body: "我们可以很容易地在过程的早期安排在线视频会议，以帮助向你提供任何额外的细节。",
+         name: "命名",
+         email: "电子邮件",
+         message: "留言",
+    },
   },
 };
 
@@ -781,6 +816,12 @@ document.getElementById("faq-fifteen-title").innerHTML = translations[selectedLa
 document.getElementById("faq-fifteen-body").innerHTML = translations[selectedLanguage].faq.fifteen.body;
 document.getElementById("faq-sixteen-title").innerHTML = translations[selectedLanguage].faq.sixteen.title;
 document.getElementById("faq-sixteen-body").innerHTML = translations[selectedLanguage].faq.sixteen.body;
+
+document.getElementById("contact-title").innerHTML = translations[selectedLanguage].contact.title;
+document.getElementById("contact-body").innerHTML = translations[selectedLanguage].contact.body;
+document.getElementById("contact-name").innerHTML = translations[selectedLanguage].contact.name;
+document.getElementById("contact-email").innerHTML = translations[selectedLanguage].contact.email;
+document.getElementById("contact-message").innerHTML = translations[selectedLanguage].contact.message;
 
 // Add listener to selector to update language
 languageSelector.addEventListener("change", function(event) {
