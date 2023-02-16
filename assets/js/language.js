@@ -72,6 +72,74 @@ const translations = {
          body: "Saint Kitts and Nevis, an independent <b>member of the Commonwealth since 1983</b> following independence from Britain, is well known and famous for its beautiful beaches, pristine tropical forests and friendly locals, Saint Kitts and Nevis is also very safe, walkable and has great weather.",
       },
     },
+    faq: {
+      title: "Frequently Asked Questions",
+      body: "Here are some frequently asked questions and answers you might find useful.",
+      one: {
+         title: "1. What are the requirements of becoming a Saint Kitts and Nevis citizen by investment?",
+         body: "The \"<b>Main Applicant</b>\" (often abbreviated “<b>MA</b>” during the process) must be at least eighteen (18) years of age, must have made an investment in the prescribed amount, and must meet other application requirements.",
+      },
+      two: {
+         title: "2. Can I contact the \"Citizenship by Investment Unit\" (CIU) directly?",
+         body: "No, the CIU limits its communication to ‘Authorized Persons’. An ‘Authorized Person’ is an individual or entity approved by the Financial Services Regulatory Commission (FRSC) of Saint Kitts and Nevis licensed to conduct corporate or trust services in Saint Kitts and Nevis. An ‘Authorized Person’ is appointed by the main applicant by way of Limited Power of Attorney to act on their behalf in relation to all matters regarding their Citizenship by Investment application. The ‘Authorized Person’ is required to provide professional advice, assist and give details regarding the process and help with the preparation and submission of an application for Citizenship by investment and its supporting documents. The ‘Authorized Person’ will communicate with the Citizenship by Investment Unit and maintain a point of contact to review all matters surrounding the application, make payments and submit and collect all important correspondences.",
+      },
+      three: {
+         title: "3. Are the application forms available online?",
+         body: "No, the application forms for Citizenship by Investment can only be obtained and also submitted to the Citizenship by Investment Unit by an ‘Authorized Person’.",
+      },
+      four: {
+         title: "4. How long does the application process take?",
+         body: "The application process may take as little as 60~90 days (counting from the submission and acceptance of all documents) but may be delayed depending on the profile of the applicant. Applicants will be kept informed regularly of the status of their applications through their ‘Authorized Person’.",
+      },
+      five: {
+         title: "5. Can I submit my application in a language other than English?",
+         body: "No. All applications and documents that are not in English are not prescribed or accepted by the Citizenship by Investment Unit, and every foreign language document must be submitted along with a <b>certified translated English</b> version.",
+      },
+      six: {
+         title: "6. Can two or more applicants apply for citizenship by investment together?",
+         body: "Yes. Two or more applicants may apply for citizenship together by purchasing one piece of real estate, provided each main applicant contributes the minimum investment.",
+      },
+      seven: {
+         title: "7. Can my family be included with my application?",
+         body: "Yes. All permitted dependents (spouse, children, siblings, parents, etc.) can easily be included in your application for economic citizenship, providing the relationship with each dependent meets certain specific basic financial criteria (e.g., economic dependency).",
+      },
+      eight: {
+         title: "8. Who are permitted dependents?",
+         body: "Permitted dependents include: a spouse of the main applicant; a child if under 18 years of the main applicant or of his/her spouse; a child if between 18 and 30 years of the main applicant or his/her spouse, who is in full-time attendance at a recognized institution of higher learning after his/her 18th birthday, and who is fully supported by the main applicant; parents and/or grandparents of the main applicant or his/her spouse above the age of 55, living with and supported economically by the main applicant; a child if above the age of 18 of the main applicant or his/ her spouse and who is physically or mentally disabled; and a sibling of the main applicant or his/her spouse who is unmarried, childless, 30 years of age or younger and dependent on the applicant for financial support.",
+      },
+      nine: {
+         title: "9. Does the program recognize same sex marriage?",
+         body: "No, the laws of Saint Kitts and Nevis currently define “spouse” as the partner of the opposite sex by marriage.",
+      },
+      ten: {
+         title: "10. What is the maximum number of dependents allowed by a main applicant?",
+         body: "There is <b>no limit</b> on the number of permitted dependents.",
+      },
+      eleven: {
+         title: ">11. What are the fees involved?",
+         body: "All applicants and permitted dependents are required to pay due diligence and processing fees, which will be presented by the ‘Authorized Person’ at application.",
+      },
+      twelve: {
+         title: "12. Can an applicant remit fees directly to the CIU?",
+         body: "No, all applicants are required to pay the processing fees, the due diligence fees as well as the Government fees through their chosen ‘Authorized Person’. Wire transfers to the Unit are only applicable for approved applicants for the remittance of Sustainable Growth Fund contributions.",
+      },
+      thirteen: {
+         title: "13. If I am no longer interested in becoming a citizen, will my monies be refunded?",
+         body: "A portion of the application fees can indeed be refunded, with the exception of the due diligence fees, the processing fees and perhaps some of the services charges already executed.",
+      },
+      fourteen: {
+         title: "14. Do I have to reside in Saint Kitts and Nevis in order to apply for citizenship?",
+         body: "Residing in Saint Kitts and Nevis is <b>not</b> required when applying for citizenship using the Citizenship by Investment Option.",
+      },
+      fifteen: {
+         title: "15. What is a police certificate and who is required to produce a police certificate?",
+         body: "A police certificate refers to a statement from a national law enforcement authority on the status of a person’s criminal record. It is also referred to as “certificate of no criminal record” or “police clearance record”. Each main applicant and all permitted dependents 16 years and older are required to produce a police certificate. Our team can easily provide you with support regarding the obtention of the certificate.",
+      },
+      sixteen: {
+         title: "16. What kind of forms and documents need to be submitted to process the application?",
+         body: "There are a few forms (in PDF easily editable format) to complete, as well as certificates (e.g. birth certificate, marriage certificate if applicable, police certificate, etc) to submit, copies of current passport as well as new passport-size photos, power of attorney, etc. Our <b>team will guide you along the process</b> and provide you with the full list of elements to assemble, to ensure a successfull application.",
+      },
+    },
   },
   
   fr: {
@@ -141,6 +209,74 @@ const translations = {
       nine: {
          title: "Un environnement vierge",
          body: "Saint-Christophe-et-Niévès, membre indépendant du Commonwealth depuis 1983 après son indépendance de la Grande-Bretagne, est bien connu et célèbre pour ses belles plages, ses forêts tropicales vierges et ses habitants sympathiques. Saint-Christophe-et-Niévès est également très sûr, praticable à pied et bénéficie d'un temps magnifique.",
+      },
+    },
+    faq: {
+      title: "Questions fréquemment posées",
+      body: "Voici quelques questions fréquemment posées et des réponses qui pourraient vous être utiles.",
+      one: {
+         title: "1. Quelles sont les conditions à remplir pour devenir un citoyen de Saint-Kitts-et-Nevis par investissement ?",
+         body: "Le \"demandeur principal\" (souvent abrégé en \"MA\" au cours du processus) doit être âgé d'au moins dix-huit (18) ans, doit avoir effectué un investissement du montant prescrit et doit satisfaire aux autres exigences de la demande.",
+      },
+      two: {
+         title: "2. Puis-je contacter directement l'unité \"Citoyenneté par l'investissement\" (CIU) ?",
+         body: "Non, le SDI limite sa communication aux \"personnes autorisées\". Une \"personne autorisée\" est une personne ou une entité agréée par la Commission de réglementation des services financiers (FRSC) de Saint-Kitts-et-Nevis et autorisée à fournir des services aux entreprises ou des services fiduciaires à Saint-Kitts-et-Nevis. Une \"personne autorisée\" est désignée par le demandeur principal au moyen d'une procuration limitée pour agir en son nom sur toutes les questions relatives à sa demande de citoyenneté par investissement. La \"personne autorisée\" est tenue de fournir des conseils professionnels, d'aider et de donner des détails concernant le processus et d'aider à la préparation et à la présentation d'une demande de citoyenneté par investissement et de ses documents justificatifs. La \"personne autorisée\" communiquera avec l'Unité de la citoyenneté par investissement et maintiendra un point de contact pour examiner toutes les questions relatives à la demande, effectuer les paiements, soumettre et recueillir toutes les correspondances importantes.",
+      },
+      three: {
+         title: "3. Les formulaires de demande sont-ils disponibles en ligne ?",
+         body: "Non, les formulaires de demande de citoyenneté par investissement ne peuvent être obtenus et soumis à l'unité de citoyenneté par investissement que par une \"personne autorisée\".",
+      },
+      four: {
+         title: "4. Combien de temps dure la procédure de candidature ?",
+         body: "Le processus de candidature peut prendre de 60 à 90 jours (à compter de la soumission et de l'acceptation de tous les documents), mais peut être retardé en fonction du profil du candidat. Les candidats seront régulièrement informés de l'état d'avancement de leur demande par l'intermédiaire de leur \"personne autorisée\".",
+      },
+      five: {
+         title: "5. Puis-je soumettre ma candidature dans une autre langue que l'anglais?",
+         body: "Non. Toutes les demandes et tous les documents qui ne sont pas en anglais ne sont pas prescrits ou acceptés par l'unité de citoyenneté par investissement, et chaque document en langue étrangère doit être soumis avec une version anglaise traduite et certifiée.",
+      },
+      six: {
+         title: "6. Deux ou plusieurs demandeurs peuvent-ils présenter ensemble une demande de citoyenneté par investissement ?",
+         body: "Oui. Deux demandeurs ou plus peuvent demander la citoyenneté ensemble en achetant un bien immobilier, à condition que chaque demandeur principal apporte l'investissement minimum.",
+      },
+      seven: {
+         title: "7. Ma famille peut-elle être incluse dans ma demande ?",
+         body: "Oui. Toutes les personnes à charge autorisées (conjoint, enfants, frères et sœurs, parents, etc.) peuvent facilement être incluses dans votre demande de citoyenneté économique, à condition que la relation avec chaque personne à charge réponde à certains critères financiers de base spécifiques (par exemple, la dépendance économique).",
+      },
+      eight: {
+         title: "8. Qui sont les personnes à charge autorisées ?",
+         body: "Les personnes à charge autorisées sont : le conjoint du demandeur principal ; un enfant si le demandeur principal ou son conjoint a moins de 18 ans ; un enfant si le demandeur principal ou son conjoint a entre 18 et 30 ans, qui fréquente à plein temps un établissement d'enseignement supérieur reconnu après son 18e anniversaire, et qui est entièrement pris en charge par le demandeur principal ; les parents et/ou grands-parents du demandeur principal ou de son conjoint âgés de plus de 55 ans, vivant avec le demandeur principal et bénéficiant de son soutien économique ; un enfant âgé de plus de 18 ans du demandeur principal ou de son conjoint et souffrant d'un handicap physique ou mental ; et un frère ou une sœur du demandeur principal ou de son conjoint, célibataire, sans enfant, âgé de 30 ans ou moins et dépendant du demandeur pour son soutien financier.",
+      },
+      nine: {
+         title: "9. Le programme reconnaît-il les mariages entre personnes de même sexe ?",
+         body: "Non, les lois de Saint-Kitts-et-Nevis définissent actuellement le \"conjoint\" comme le partenaire du sexe opposé par le mariage.",
+      },
+      ten: {
+         title: "10. Quel est le nombre maximum de personnes à charge autorisé par un demandeur principal?",
+         body: "Il n'y a pas de limite au nombre de personnes à charge autorisées.",
+      },
+      eleven: {
+         title: ">11. Quels sont les frais à payer?",
+         body: "Tous les demandeurs et les personnes à charge autorisées doivent payer des frais de diligence raisonnable et de traitement, qui seront présentés par la \"personne autorisée\" lors de la demande.",
+      },
+      twelve: {
+         title: "12. Un demandeur peut-il verser les frais directement au SDI?",
+         body: "Non, tous les demandeurs doivent payer les frais de traitement, les frais de diligence raisonnable ainsi que les frais gouvernementaux par l'intermédiaire de la \"personne autorisée\" de leur choix. Les virements électroniques à l'Unité ne sont applicables qu'aux demandeurs approuvés pour le versement des contributions au Fonds de croissance durable.",
+      },
+      thirteen: {
+         title: "13. Si je ne suis plus intéressé par l'acquisition de la citoyenneté, mon argent me sera-t-il remboursé?",
+         body: "Une partie des frais de dossier peut en effet être remboursée, à l'exception des frais de diligence raisonnable, des frais de traitement et peut-être de certains frais de services déjà exécutés.",
+      },
+      fourteen: {
+         title: "14. Dois-je résider à Saint-Kitts-et-Nevis pour demander la citoyenneté?",
+         body: "Il n'est pas nécessaire de résider à Saint-Kitts-et-Nevis pour demander la citoyenneté en utilisant l'option de citoyenneté par investissement.",
+      },
+      fifteen: {
+         title: "15. Qu'est-ce qu'un certificat de police et qui est tenu de produire un certificat de police?",
+         body: "Un certificat de police est une déclaration d'une autorité nationale chargée de l'application de la loi sur l'état du casier judiciaire d'une personne. Il est également appelé \"certificat d'absence de casier judiciaire\" ou \"certificat de police\". Chaque demandeur principal et toutes les personnes à charge autorisées âgées de 16 ans ou plus sont tenus de produire un certificat de police. Notre équipe peut facilement vous fournir un soutien concernant l'obtention de ce certificat.",
+      },
+      sixteen: {
+         title: "16. Quels types de formulaires et de documents doivent être soumis pour traiter la demande?",
+         body: "Il y a quelques formulaires (en format PDF facilement modifiable) à remplir, ainsi que des certificats (par exemple, certificat de naissance, certificat de mariage le cas échéant, certificat de police, etc.) à soumettre, des copies du passeport actuel ainsi que de nouvelles photos d'identité, une procuration, etc. Notre équipe vous guidera tout au long du processus et vous fournira la liste complète des éléments à réunir, afin de garantir le succès de votre demande.",
       },
     },
   },
@@ -214,6 +350,74 @@ const translations = {
          body: "San Cristóbal y Nieves, miembro independiente de la Commonwealth desde 1983 tras independizarse de Gran Bretaña, es conocida y famosa por sus hermosas playas, sus bosques tropicales vírgenes y sus amables habitantes. San Cristóbal y Nieves es también muy segura, se puede recorrer a pie y goza de un clima estupendo.",
       },
     },
+    faq: {
+      title: "Preguntas frecuentes",
+      body: "He aquí algunas preguntas y respuestas frecuentes que pueden resultarle útiles.",
+      one: {
+         title: "1. ¿Cuáles son los requisitos para convertirse en ciudadano de San Cristóbal y Nieves por inversión?",
+         body: "El \"Solicitante Principal\" (a menudo abreviado \"MA\" durante el proceso) debe tener al menos dieciocho (18) años, haber realizado una inversión por el importe prescrito y cumplir otros requisitos de la solicitud.",
+      },
+      two: {
+         title: "2. ¿Puedo ponerme en contacto directamente con la \"Unidad de Ciudadanía por Inversión\" (CIU)?",
+         body: "No, el CIU limita su comunicación a las \"Personas autorizadas\". Una \"persona autorizada\" es una persona o entidad aprobada por la Comisión Reguladora de Servicios Financieros (FRSC) de San Cristóbal y Nieves con licencia para llevar a cabo servicios corporativos o fiduciarios en San Cristóbal y Nieves. Una \"Persona Autorizada\" es designada por el solicitante principal mediante un Poder Limitado para actuar en su nombre en relación con todas las cuestiones relativas a su solicitud de Ciudadanía por Inversión. La \"Persona Autorizada\" debe proporcionar asesoramiento profesional, ayudar y dar detalles sobre el proceso y ayudar con la preparación y presentación de una solicitud de Ciudadanía por inversión y sus documentos justificativos. La \"Persona Autorizada\" se comunicará con la Unidad de Ciudadanía por Inversión y mantendrá un punto de contacto para revisar todos los asuntos relacionados con la solicitud, efectuar los pagos y presentar y recoger toda la correspondencia importante.",
+      },
+      three: {
+         title: "3. ¿Están disponibles en línea los formularios de solicitud?",
+         body: "No, los formularios de solicitud de Ciudadanía por Inversión sólo pueden ser obtenidos y también presentados a la Unidad de Ciudadanía por Inversión por una \"Persona Autorizada\".",
+      },
+      four: {
+         title: "4. ¿Cuánto dura el proceso de solicitud?",
+         body: "El proceso de solicitud puede durar entre 60 y 90 días (a contar desde la presentación y aceptación de todos los documentos), pero puede retrasarse en función del perfil del solicitante. Los solicitantes serán informados periódicamente del estado de sus solicitudes a través de su \"persona autorizada\".",
+      },
+      five: {
+         title: "5. ¿Puedo presentar mi solicitud en un idioma distinto del inglés?",
+         body: "No. Todas las solicitudes y documentos que no estén en inglés no son prescritos ni aceptados por la Unidad de Ciudadanía por Inversión, y todo documento en lengua extranjera debe presentarse junto con una versión inglesa traducida y certificada.",
+      },
+      six: {
+         title: "6. ¿Pueden dos o más solicitantes pedir juntos la nacionalidad por inversión?",
+         body: "Sí. Dos o más solicitantes pueden solicitar la nacionalidad juntos mediante la compra de un bien inmueble, siempre que cada solicitante principal aporte la inversión mínima.",
+      },
+      seven: {
+         title: "7. ¿Puede mi familia acompañar mi solicitud?",
+         body: "Sí. Todos los dependientes permitidos (cónyuge, hijos, hermanos, padres, etc.) pueden incluirse fácilmente en su solicitud de ciudadanía económica, siempre que la relación con cada dependiente cumpla determinados criterios económicos básicos específicos (por ejemplo, dependencia económica).",
+      },
+      eight: {
+         title: "8. ¿Quiénes son las personas a cargo autorizadas?",
+         body: "Las personas a cargo permitidas son: el cónyuge del solicitante principal; un hijo si es menor de 18 años del solicitante principal o de su cónyuge; un hijo si tiene entre 18 y 30 años del solicitante principal o de su cónyuge, que asista a tiempo completo a una institución de enseñanza superior reconocida después de cumplir los 18 años y que esté totalmente mantenido por el solicitante principal; los padres y/o abuelos del solicitante principal o de su cónyuge mayores de 55 años, que vivan con el solicitante principal y sean mantenidos económicamente por él; un hijo mayor de 18 años del solicitante principal o de su cónyuge y que esté física o mentalmente discapacitado; y un hermano del solicitante principal o de su cónyuge que no esté casado, no tenga hijos, tenga 30 años o menos y dependa económicamente del solicitante.",
+      },
+      nine: {
+         title: "9. ¿Reconoce el programa el matrimonio entre personas del mismo sexo?",
+         body: "No, las leyes de San Cristóbal y Nieves definen actualmente \"cónyuge\" como la pareja del sexo opuesto por matrimonio.",
+      },
+      ten: {
+         title: "10. ¿Cuál es el número máximo de personas a cargo que puede tener un solicitante principal?",
+         body: "No hay límite en el número de personas a cargo permitidas.",
+      },
+      eleven: {
+         title: ">11. ¿Cuáles son las tasas?",
+         body: "Todos los solicitantes y personas a su cargo autorizadas deben abonar las tasas de diligencia debida y tramitación, que serán presentadas por la \"persona autorizada\" en el momento de la solicitud.",
+      },
+      twelve: {
+         title: "12. ¿Puede un solicitante abonar las tasas directamente al CIU?",
+         body: "No, todos los solicitantes deben pagar las tasas de tramitación, las tasas de diligencia debida y las tasas gubernamentales a través de la \"persona autorizada\" que hayan elegido. Las transferencias bancarias a la Unidad sólo son aplicables a los solicitantes aprobados para el envío de las contribuciones al Fondo de Crecimiento Sostenible.",
+      },
+      thirteen: {
+         title: "13. Si ya no me interesa hacerme ciudadano, ¿me devolverán el dinero?",
+         body: "De hecho, puede devolverse una parte de las tasas de solicitud, a excepción de las tasas de diligencia debida, las tasas de tramitación y tal vez algunos de los cargos por servicios ya ejecutados.",
+      },
+      fourteen: {
+         title: "14. ¿Tengo que residir en San Cristóbal y Nieves para solicitar la nacionalidad?",
+         body: "No es necesario residir en San Cristóbal y Nieves para solicitar la nacionalidad mediante la opción de nacionalidad por inversión.",
+      },
+      fifteen: {
+         title: "15. ¿Qué es un certificado policial y quién está obligado a presentarlo?",
+         body: "Un certificado policial es una declaración de una autoridad policial nacional sobre el estado de los antecedentes penales de una persona. También se denomina \"certificado de no antecedentes penales\" o \"certificado de antecedentes policiales\". Cada solicitante principal y todos los dependientes permitidos mayores de 16 años deben presentar un certificado policial. Nuestro equipo puede ayudarle fácilmente en la obtención del certificado.",
+      },
+      sixteen: {
+         title: "16. ¿Qué tipo de formularios y documentos hay que presentar para tramitar la solicitud?",
+         body: "Hay unos cuantos formularios (en formato PDF fácilmente editable) que rellenar, así como certificados (por ejemplo, partida de nacimiento, certificado de matrimonio si procede, certificado de la policía, etc.) que presentar, copias del pasaporte actual así como nuevas fotos tamaño carné, poder notarial, etc. Nuestro equipo le guiará a lo largo del proceso y le proporcionará la lista completa de elementos que debe reunir, para garantizar el éxito de su solicitud.",
+      },
+    },
   },
         
   jp: {
@@ -283,6 +487,74 @@ const translations = {
       nine: {
          title: "手つかずの環境",
          body: "セントクリストファー・ネイビスは、イギリスからの独立後、1983年から英連邦の独立メンバーとして、美しいビーチ、手つかずの熱帯林、フレンドリーな地元の人々でよく知られ有名です。また、セントクリストファー・ネイビスは非常に安全で歩きやすく、素晴らしい気候です。",
+      },
+    },
+    faq: {
+      title: "よくある質問",
+      body: "よくあるご質問とその回答をご紹介しています。",
+      one: {
+         title: "1.  投資によってセントクリストファー・ネイビスの国民になるための条件は何ですか？",
+         body: "主申請者」（手続き上、しばしば「MA」と略される）は、18歳以上であること、所定の金額を投資していること、その他の申請要件を満たしていることが必要です。",
+      },
+      two: {
+         title: "2. CIUに直接問い合わせることはできますか？",
+         body: "いいえ、CIUは「Authorized Persons」への通信を制限しています。Authorized Person」とは、セントクリストファー・ネイビスの金融サービス規制委員会（FRSC）により、セントクリストファー・ネイビスで法人または信託サービスを行うことを認可された個人または団体を指します。Authorized Person」は、投資による市民権（Citizenship by Investment）申請に関するすべての事柄を代理して行動する限定委任状によって、主申請者から任命されます。Authorized Person \"は、専門的なアドバイスを提供し、手続きに関する詳細やCitizenship by Investmentの申請書およびその添付書類の準備・提出を支援することが求められます。Authorized Person」はCitizenship by Investment Unitと連絡を取り、申請に関する全ての事柄の確認、支払い、全ての重要な通信事項の提出・回収を行うための窓口を維持します。",
+      },
+      three: {
+         title: "3. 応募書類はオンラインで入手できますか？",
+         body: "投資による市民権」の申請用紙は、「権限のある人」が入手し、「投資による市民権」ユニットに提出する必要があります。",
+      },
+      four: {
+         title: "4. 応募にはどれくらいの時間がかかりますか？",
+         body: "申請手続きには最短で60～90日（すべての書類の提出と受理から起算）かかりますが、申請者のプロファイルによっては遅れることがあります。申請者は、「オーソライズド・パーソン」を通じて、申請状況について定期的に知らされます。",
+      },
+      five: {
+         title: "5. 英語以外の言語で応募することはできますか？",
+         body: "英語以外の言語で書かれた申請書や書類は、Citizenship by Investment Unitでは規定・受理していません。また、すべての外国語の書類には、<b>認証された翻訳英語版</b>を添えて提出する必要があります。",
+      },
+      six: {
+         title: "6. 2人以上の申請者が一緒に投資によって市民権を申請することは可能ですか？",
+         body: "2人以上の申請者が1つの不動産を購入し、一緒に市民権を申請することも可能です（ただし、各主要申請者が最低投資額を負担することが条件）。",
+      },
+      seven: {
+         title: "7. 家族も一緒に応募できますか？",
+         body: "はい。許可されたすべての扶養家族（配偶者、子供、兄弟姉妹、両親など）は、各扶養家族との関係が特定の基本的な経済基準（経済的扶養など）を満たしていれば、簡単に経済国籍取得の申請に含めることができます。",
+      },
+      eight: {
+         title: "8. 扶養家族として認められるのは誰ですか？",
+         body: "許可される扶養家族は以下の通りです。主申請者の配偶者、主申請者またはその配偶者の18歳未満の子、主申請者またはその配偶者の18歳から30歳までの子で、18歳の誕生日以降に公認高等教育機関に正規に在籍し、主申請者に完全に扶養されている者。主申請者またはその配偶者の55歳以上の両親および/または祖父母で、主申請者と同居し経済的に援助されている者、主申請者またはその配偶者の18歳以上で身体または精神障害のある子、主申請者またはその配偶者の未婚で子供のいない30歳以下の兄弟で経済的に申請者に扶養されている者。",
+      },
+      nine: {
+         title: "9. プログラムは同性婚を認めていますか？",
+         body: "いいえ、現在セントクリストファー・ネイビスの法律では、「配偶者」を婚姻による異性のパートナーと定義しています。",
+      },
+      ten: {
+         title: "10. 主申請者の扶養家族の人数は何人までですか？",
+         body: "扶養家族として認められる人数に制限はありません。",
+      },
+      eleven: {
+         title: ">11. 料金はどうなっていますか？",
+         body: "すべての申請者および許可された扶養家族は、申請時に「認定者」によって提示されるデューディリジェンスおよび処理手数料を支払う必要があります。",
+      },
+      twelve: {
+         title: "12. 申請者が直接CIUに料金を送金することはできますか？",
+         body: "いいえ。すべての申請者は、選択した「認定者」を通じて、手続き費用、デューデリジェンス費用、および政府費用を支払う必要があります。ユニットへの電信送金は、持続可能な成長基金の拠出金を送金するために承認された申請者のみに適用されます。",
+      },
+      thirteen: {
+         title: "13. 市民権を取得する気がなくなった場合、お金は戻ってくるのでしょうか？",
+         body: "デューデリジェンス費用、プロセシング費用、そしておそらく既に実行されたサービス料金の一部を除き、申請料金の一部は実際に返金されます。",
+      },
+      fourteen: {
+         title: "14. 市民権を申請するためには、セントクリストファー・ネイビスに居住していなければなりませんか？",
+         body: "Citizenship by Investment Optionを利用して市民権を申請する場合、セントクリストファー・ネイビスに居住している必要はありません。",
+      },
+      fifteen: {
+         title: "15. 警察証明書とは何ですか？また、警察証明書を作成する必要があるのはどのような人ですか？",
+         body: "警察証明書とは、ある人の犯罪歴の状況について、国の法執行機関が発行する証明書を指します。無犯罪証明書」「ポリスクリアランスレコード」とも呼ばれる。主申請者と16歳以上の許可された扶養家族は、それぞれ警察証明書を提出することが義務付けられています。弊社では、この証明書の取得に関するサポートも行っております。",
+      },
+      sixteen: {
+         title: "16. 申請手続きには、どのような書類や資料が必要ですか？",
+         body: "いくつかの書類 証明書（出生証明書、結婚証明書、警察証明書など）、現在のパスポートのコピー、新しいパスポートサイズの写真、委任状などが必要です。私たちのチームは、申請を成功させるために必要な要素のリストを提供し、プロセスを指導します。",
       },
     },
   },
@@ -356,7 +628,75 @@ const translations = {
          body: "圣基茨和尼维斯自1983年从英国独立后成为英联邦的独立成员，因其美丽的海滩、原始的热带森林和友好的当地人而闻名遐迩，圣基茨和尼维斯也非常安全，适合步行，并拥有良好的天气。",
       },
     },
-   },
+    faq: {
+      title: "常见问题",
+      body: "以下是一些经常被问到的问题和答案，你可能会觉得有用。",
+      one: {
+         title: "1. 通过投资成为圣基茨和尼维斯公民有哪些要求",
+         body: "主申请人\"（在此过程中通常缩写为 \"MA\"）必须至少年满十八（18）岁，必须进行了规定数额的投资，并且必须满足其他申请要求。",
+      },
+      two: {
+         title: "2. 我可以直接联系 \"投资入籍组\"（CIU）吗？",
+         body: "不，CIU只限于与 \"被授权人 \"沟通。授权人 \"是指经圣基茨和尼维斯金融服务监管委员会（FRSC）批准的个人或实体，获准在圣基茨和尼维斯开展企业或信托服务。被授权人 \"由主申请人通过有限授权书的方式指定，代表他们处理与投资入籍申请有关的所有事宜。被授权人 \"需要提供专业意见，协助并提供有关程序的细节，并帮助准备和提交投资入籍申请及其支持文件。授权人 \"将与投资入籍部门沟通，并保持一个联络点，以审查所有与申请有关的事项，付款，提交和收集所有重要的信件。",
+      },
+      three: {
+         title: "3. 申请表是否在网上提供？",
+         body: "不，投资入籍的申请表格只能由 \"授权人 \"获得并提交给投资入籍部门。",
+      },
+      four: {
+         title: "4. 申请过程需要多长时间？",
+         body: "申请过程可能只需要60-90天（从提交和接受所有文件开始计算），但根据申请人的情况可能会推迟。申请人将通过其 \"授权人 \"定期获知其申请的状况。",
+      },
+      five: {
+         title: "5. 我可以用英语以外的语言提交我的申请吗？",
+         body: "不可以。所有非英语的申请和文件都不被投资入籍组规定或接受，每一份外语文件都必须与经过认证的英文翻译版本一起提交。",
+      },
+      six: {
+         title: "6. 两个或更多的申请人可以一起申请投资入籍吗？",
+         body: "是的，两个或更多的申请人可以通过购买一块房地产来共同申请入籍，前提是每个主要申请人都要贡献最低的投资。",
+      },
+      seven: {
+         title: "7. 我的家人可以和我的申请一起被列入吗？",
+         body: "是的。所有允许的家属（配偶、子女、兄弟姐妹、父母等）都可以很容易地包括在你的经济公民权申请中，只要与每个家属的关系符合某些特定的基本财务标准（如经济依赖）。",
+      },
+      eight: {
+         title: "8. 哪些人是允许的家属？",
+         body: "允许的家属包括 主申请人的配偶；主申请人或其配偶的18岁以下的子女；主申请人或其配偶的18至30岁的子女，在其18岁生日后在公认的高等教育机构全职学习，并由主申请人完全抚养。主申请人或其配偶的父母和/或祖父母，年龄在55岁以上，与主申请人共同生活并由其提供经济支持；主申请人或其配偶的18岁以上的子女，身体或精神残疾；主申请人或其配偶的兄弟姐妹，未婚、无子女、年龄在30岁或以下，并依靠申请人提供经济支持。",
+      },
+      nine: {
+         title: "9. 该计划是否承认同性婚姻？",
+         body: "不，圣基茨和尼维斯的法律目前将 \"配偶 \"定义为婚姻中的异性伴侣。",
+      },
+      ten: {
+         title: "10. 一个主申请人最多允许有多少名家属？",
+         body: "对允许的受抚养人数量没有限制。",
+      },
+      eleven: {
+         title: ">11. 所涉及的费用是什么？",
+         body: "所有申请人和获准的家属都需要支付尽职调查和处理费用，这些费用将由 \"授权人 \"在申请时出示。",
+      },
+      twelve: {
+         title: "12. 申请人能否直接将费用汇给CIU？",
+         body: "不，所有申请人都需要通过他们选择的 \"授权人 \"来支付处理费、尽职调查费以及政府费用。电汇到该单位只适用于获准汇出可持续增长基金捐款的申请人。",
+      },
+      thirteen: {
+         title: "13. 如果我不再对成为公民感兴趣，我的钱会被退还吗？",
+         body: "部分申请费确实可以退还，但尽职调查费、处理费以及可能已经执行的一些服务费除外。",
+      },
+      fourteen: {
+         title: "14. 我必须居住在圣基茨和尼维斯才能申请入籍吗？",
+         body: "使用投资入籍方案申请入籍时，不需要居住在圣基茨和尼维斯。",
+      },
+      fifteen: {
+         title: "15. 什么是警察证书，谁需要出示警察证书？",
+         body: "警方证明是指国家执法机关对一个人的犯罪记录状况的声明。它也被称为 \"无犯罪记录证明 \"或 \"警方清除记录\"。每个主申请人和所有被允许的16岁及以上的受抚养人都需要出具一份警方证明。我们的团队可以很容易地为您提供有关获得该证书的支持。",
+      },
+      sixteen: {
+         title: "16. 处理申请时需要提交什么样的表格和文件？",
+         body: "这里有一些 表格（PDF格式，易于编辑），以及需要提交的证书（如出生证、结婚证（如适用）、警察证等）、现有护照的复印件以及新的护照照片、委托书等。我们的团队将指导你完成这一过程，并为你提供完整的要素清单，以确保申请的成功。",
+      },
+    },    
+  },
 };
 
 const urlParams = new URLSearchParams(window.location.search);
@@ -405,6 +745,42 @@ document.getElementById("benefits-eight-title").innerHTML = translations[selecte
 document.getElementById("benefits-eight-body").innerHTML = translations[selectedLanguage].benefits.eight.body;
 document.getElementById("benefits-nine-title").innerHTML = translations[selectedLanguage].benefits.nine.title;
 document.getElementById("benefits-nine-body").innerHTML = translations[selectedLanguage].benefits.nine.body;
+document.getElementById("benefits-button").innerHTML = translations[selectedLanguage].learnButton;
+
+document.getElementById("faq-title").innerHTML = translations[selectedLanguage].faq.title;
+document.getElementById("faq-body").innerHTML = translations[selectedLanguage].faq.body;
+document.getElementById("faq-one-title").innerHTML = translations[selectedLanguage].faq.one.title;
+document.getElementById("faq-one-body").innerHTML = translations[selectedLanguage].faq.one.body;
+document.getElementById("faq-two-title").innerHTML = translations[selectedLanguage].faq.two.title;
+document.getElementById("faq-two-body").innerHTML = translations[selectedLanguage].faq.two.body;
+document.getElementById("faq-three-title").innerHTML = translations[selectedLanguage].faq.three.title;
+document.getElementById("faq-three-body").innerHTML = translations[selectedLanguage].faq.three.body;
+document.getElementById("faq-four-title").innerHTML = translations[selectedLanguage].faq.four.title;
+document.getElementById("faq-four-body").innerHTML = translations[selectedLanguage].faq.four.body;
+document.getElementById("faq-five-title").innerHTML = translations[selectedLanguage].faq.five.title;
+document.getElementById("faq-five-body").innerHTML = translations[selectedLanguage].faq.five.body;
+document.getElementById("faq-six-title").innerHTML = translations[selectedLanguage].faq.six.title;
+document.getElementById("faq-six-body").innerHTML = translations[selectedLanguage].faq.six.body;
+document.getElementById("faq-seven-title").innerHTML = translations[selectedLanguage].faq.seven.title;
+document.getElementById("faq-seven-body").innerHTML = translations[selectedLanguage].faq.seven.body;
+document.getElementById("faq-eight-title").innerHTML = translations[selectedLanguage].faq.eight.title;
+document.getElementById("faq-eight-body").innerHTML = translations[selectedLanguage].faq.eight.body;
+document.getElementById("faq-nine-title").innerHTML = translations[selectedLanguage].faq.nine.title;
+document.getElementById("faq-nine-body").innerHTML = translations[selectedLanguage].faq.nine.body;
+document.getElementById("faq-ten-title").innerHTML = translations[selectedLanguage].faq.ten.title;
+document.getElementById("faq-ten-body").innerHTML = translations[selectedLanguage].faq.ten.body;
+document.getElementById("faq-eleven-title").innerHTML = translations[selectedLanguage].faq.eleven.title;
+document.getElementById("faq-eleven-body").innerHTML = translations[selectedLanguage].faq.eleven.body;
+document.getElementById("faq-twelve-title").innerHTML = translations[selectedLanguage].faq.twelve.title;
+document.getElementById("faq-twelve-body").innerHTML = translations[selectedLanguage].faq.twelve.body;
+document.getElementById("faq-thirteen-title").innerHTML = translations[selectedLanguage].faq.thirteen.title;
+document.getElementById("faq-thirteen-body").innerHTML = translations[selectedLanguage].faq.thirteen.body;
+document.getElementById("faq-fourteen-title").innerHTML = translations[selectedLanguage].faq.fourteen.title;
+document.getElementById("faq-fourteen-body").innerHTML = translations[selectedLanguage].faq.fourteen.body;
+document.getElementById("faq-fifteen-title").innerHTML = translations[selectedLanguage].faq.fifteen.title;
+document.getElementById("faq-fifteen-body").innerHTML = translations[selectedLanguage].faq.fifteen.body;
+document.getElementById("faq-sixteen-title").innerHTML = translations[selectedLanguage].faq.sixteen.title;
+document.getElementById("faq-sixteen-body").innerHTML = translations[selectedLanguage].faq.sixteen.body;
 
 // Add listener to selector to update language
 languageSelector.addEventListener("change", function(event) {
