@@ -841,7 +841,7 @@ document.getElementById("contact-email").innerHTML = translations[selectedLangua
 document.getElementById("contact-message").innerHTML = translations[selectedLanguage].contact.message;
 document.getElementById("contact-submit").value = translations[selectedLanguage].contact.submit;
 
-document.getElementById("footer").value = translations[selectedLanguage].footer;
+document.getElementById("footer").innerHTML = translations[selectedLanguage].footer;
 
 // Add listener to selector to update language
 languageSelector.addEventListener("change", function(event) {
