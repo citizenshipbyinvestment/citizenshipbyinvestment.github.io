@@ -149,6 +149,7 @@ const translations = {
          message: "Message",
          submit: "Send Message",
     },
+    footer: "&copy; 2023 Citizenship by Investment. Design: <a href=\"https://html5up.net\">HTML5 UP</a>.",
   },
   
   fr: {
@@ -297,6 +298,7 @@ const translations = {
          message: "Message",
          submit: "Envoyer un message",
     },
+    footer: "&copy; 2023 Citizenship by Investment. Design: <a href=\"https://html5up.net\">HTML5 UP</a>.",
   },
         
   sp: {
@@ -445,6 +447,7 @@ const translations = {
          message: "Mensaje",
          submit: "Enviar mensaje",
     },
+    footer: "&copy; 2023 Citizenship by Investment. Diseño: <a href=\"https://html5up.net\">HTML5 UP</a>.",
   },
         
   jp: {
@@ -593,6 +596,7 @@ const translations = {
          message: "メッセージ",
          submit: "メッセージの送信",
     },
+    footer: "&copy; 2023 Citizenship by Investment. デザイン: <a href=\"https://html5up.net\">HTML5 UP</a>.",
   },
         
   cn: {
@@ -741,6 +745,7 @@ const translations = {
          message: "留言",
          submit: "发送信息",
     },
+    footer: "&copy; 2023 Citizenship by Investment. 设计: <a href=\"https://html5up.net\">HTML5 UP</a>.",
   },
 };
 
@@ -835,6 +840,8 @@ document.getElementById("contact-name").innerHTML = translations[selectedLanguag
 document.getElementById("contact-email").innerHTML = translations[selectedLanguage].contact.email;
 document.getElementById("contact-message").innerHTML = translations[selectedLanguage].contact.message;
 document.getElementById("contact-submit").value = translations[selectedLanguage].contact.submit;
+
+document.getElementById("footer").value = translations[selectedLanguage].footer;
 
 // Add listener to selector to update language
 languageSelector.addEventListener("change", function(event) {
