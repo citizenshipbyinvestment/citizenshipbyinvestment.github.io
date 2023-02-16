@@ -403,7 +403,7 @@
 						<div class="inner medium">
 							<h2 id="contact-title">Get in touch to learn more</h2>
 							<h3 id="contact-body">We can easily arrange online video meetings early into the process, to help provide you with any additional details.</h3>
-							<form action="https://formspree.io/f/mjvdynap" method="POST">
+							<form id="form" action="https://formspree.io/f/mjvdynap" method="POST">
 								<div class="fields">
 									<div class="field half">
 										<label for="name" id="contact-name">Name</label>
@@ -419,8 +419,9 @@
 									</div>
 								</div>
 								<ul class="actions special">
-									<li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
+									<li><input name="submit" id="submit" value="Send Message" /></li>
 								</ul>
+								<p id="status"></p>
 							</form>
 
 						</div>
@@ -457,5 +458,6 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/language.js"></script>
+			<script src="assets/js/email.js"></script>
 	</body>
 </html>
