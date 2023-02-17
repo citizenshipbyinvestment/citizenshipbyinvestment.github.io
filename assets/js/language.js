@@ -117,7 +117,7 @@ const translations = {
          body: "There is <b>no limit</b> on the number of permitted dependents.",
       },
       eleven: {
-         title: ">11. What are the fees involved?",
+         title: "11. What are the fees involved?",
          body: "All applicants and permitted dependents are required to pay due diligence and processing fees, which will be presented by the ‘Authorized Person’ at application.",
       },
       twelve: {
