@@ -102,7 +102,7 @@ const translations = {
       },
       seven: {
          title: "7. Can my family be included with my application?",
-         body: "Yes. All permitted dependents (spouse, children, siblings, parents, etc.) can easily be included in your application for economic citizenship, providing the relationship with each dependent meets certain specific basic financial criteria (e.g., economic dependency).",
+         body: "Yes. All permitted dependents (spouse, children, siblings, parents, etc.) can easily be <b>included in your application</b> for economic citizenship, providing the relationship with each dependent meets certain specific basic financial criteria (e.g. economic dependency, etc.)",
       },
       eight: {
          title: "8. Who are permitted dependents?",
@@ -118,7 +118,7 @@ const translations = {
       },
       eleven: {
          title: "11. What are the fees involved?",
-         body: "All applicants and permitted dependents are required to pay due diligence and processing fees, which will be presented by the ‘Authorized Person’ at application.",
+         body: "All applicants and permitted dependents are required to pay the due diligence fees, the application fees, the administrative fees (for passport processing), as well as the service provider professional fees, which will be presented by the ‘Authorized Person’ at application.",
       },
       twelve: {
          title: "12. Can an applicant remit fees directly to the CIU?",
