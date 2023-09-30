@@ -31,7 +31,7 @@ const translations = {
       title: "Successful Track Record",
       body: {
          one: "Our team already has a lengthy proven track-record of applicants, and we have assisted numerous clients from around the world, including applicants from jurisdictions such as <b>Lebanon</b>, <b>Nigeria</b>, <b>Canada</b>, <b>China</b>, <b>Libya</b>, <b>New Zealand</b>, <b>Germany</b>, <b>Japan</b>, etc., to obtain citizenship.",
-         two: "Our team also facilitates citizenship applications in any country that currently offers reputable economic citizenship programs <br>(currently including <i>Saint Lucia</i>, <i>Antigua and Barbuda</i>, <i>Commonwealth of Dominica (Roseau)</i>, <i>Grenada</i>, <i>Turkey</i>, <i>Malta</i>, and <i>Vanuatu</i>).",
+         two: "Our team also facilitates citizenship applications in any country that currently offers reputable economic citizenship programs <br>(currently including <i>Saint Lucia</i>, <i>Antigua and Barbuda</i>, <i>Commonwealth of Dominica (Roseau)</i>, <i>Grenada</i>,  <i>Turkey</i>, <i>Paraguay</i>, <i>Mexico<i>, <i>Malta</i>, and <i>Vanuatu</i>).",
       },
     },
     benefits: {
