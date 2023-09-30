@@ -6,7 +6,7 @@ const translations = {
   en: {
     title: "CITIZENSHIP AND RESIDENCY BY INVESTMENT PROGRAMME",
     banner: {
-      title: "CITIZENSHIP",
+      title: "CITIZENSHIP AND RESIDENCY",
       body: "BY INVESTMENT PROGRAMME",
       button: "Get Started",
     },
