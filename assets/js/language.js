@@ -4,7 +4,7 @@ const languageSelector = document.getElementById("language-selector");
 const translations = {
         
   en: {
-    title: "CITIZENSHIP BY INVESTMENT PROGRAMME",
+    title: "CITIZENSHIP AND RESIDENCY BY INVESTMENT PROGRAMME",
     banner: {
       title: "CITIZENSHIP",
       body: "BY INVESTMENT PROGRAMME",
